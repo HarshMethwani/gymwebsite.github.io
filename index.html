@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh GYM</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        background: url('/dumbbells-g6d6d1daf4_1920.jpg');
+    }
+
+    .left {
+        position: absolute;
+        top: 12px;
+        right: 1403px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .mid {
+        /* display: inline-block; */
+        width: 33%;
+        top: 20px;
+        margin: 12px auto;
+        /* border: 2px solid green;         */
+    }
+
+    .right {
+        position: absolute;
+        right: 33px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 13px 17px;
+        font-weight: bolder;
+    }
+
+    .navbar li a.active,
+    .navbar li a:hover {
+        color: rgb(81, 180, 205);
+        text-decoration: underline;
+
+    }
+
+    .left img {
+        position: relative;
+        right: -15px;
+        width: 50px;
+    }
+
+    .left div {
+        text-align: center;
+        padding: 0px -5px;
+        /* margin: -11px 0px; */
+        line-height: 0px;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 12px;
+        color: black;
+        padding: -3px 0px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(90, 144, 214);
+    }
+
+    .container {
+        /* border: 2px solid black; */
+        margin: 91px 95px;
+        padding: 35px 45px;
+        border-radius: 8px;
+        width: 33%;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        margin: 8px 38px;
+        padding: 3px 17px;
+        width: 63%;
+        border-radius: 10px;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 15px;
+    }
+
+    .container button {
+        display: block;
+        width: 351px;
+        margin: 15px 39px;
+        border-radius: 2px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="835259-200.png" alt="">
+            <div>Methwani Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for navi -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for search  -->
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of Kanpur!!
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <button class="btn"> Submit</button>
+        </form>
+    </div>
+</body>
+</html>
