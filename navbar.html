@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV BAR</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin:0px;
+            padding: 0px;
+            width: 105px;
+            background-color: #dddddd;
+            height: 100%;
+            position: fixed;
+            /* border: 1px solid black; */
+            /* border-collapse:separate; */
+            /* border-radius: 10px; */
+        }
+        li a{
+            display: block;
+            padding:15px;
+            padding-left: 13px;
+            text-decoration: none;
+            color: #000;
+            /* text-align: center; */
+            /* border:1px solid #000; */
+            border-collapse: collapse;
+        }
+        .h{
+            background-color: #04AA6D;
+            color: white;
+        }
+        li a:hover:not(.h){
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="h">
+            <a href="">HOME</a>
+        </li>
+        <li class="c">
+            <a href="">CONTACT</a>
+        </li>
+        <li class="ab">
+            <a href="">ABOUT</a>
+        </li>
+        <li class="u">
+            <a href="">UPDATES</a>
+        </li>
+    </ul>
+</body>
+</html>
